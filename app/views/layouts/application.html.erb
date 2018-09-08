@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ejercicio</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+
+  	Aqui puede ir un if si el usuario está logueado o no para mostrar las opciones
+  	<nav>Cabecera o navbar</nav>
+
+    <%= yield %>
+
+    <footer>Pie_de_Pagina</footer>
+  </body>
+</html>
